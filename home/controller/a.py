@@ -1,4 +1,4 @@
 from django.http import *
 
 def index(request):
-    return
+    return HttpResponse(u"home/index")

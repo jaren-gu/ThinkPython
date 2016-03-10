@@ -26,5 +26,4 @@ urlpatterns = [
     # 此路由为自动发现路由，如无特殊需要,参照 route/views.py 中的说明使用即可
     # 注意：此路由必须放置在最下方，以防止覆盖自定义路由的实现
     url(r'^(.*)/(.*)', route_views.route),
-    url(r'^(.*)/(.*)/(.*)', route_views.route),
 ]

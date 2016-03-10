@@ -4,11 +4,7 @@ from home.controller import a
 
 # Create your views here.
 def index(request):
-    return HttpResponse(u"home/index")
-
+    return a.index(request)
 
 def other(request):
     return HttpResponse(u"home/other")
-
-def other(request, a, b):
-    return HttpResponse(u"home/other/%s/%s" %(a,b))
